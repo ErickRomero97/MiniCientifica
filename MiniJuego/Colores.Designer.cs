@@ -39,6 +39,9 @@
             this.rdbRed = new System.Windows.Forms.RadioButton();
             this.rdbYellow = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtPuntaje = new System.Windows.Forms.TextBox();
+            this.txtMalas = new System.Windows.Forms.TextBox();
+            this.txtBuenas = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -57,9 +60,6 @@
             this.pbBlanco = new System.Windows.Forms.PictureBox();
             this.pbVerde = new System.Windows.Forms.PictureBox();
             this.pbRosado = new System.Windows.Forms.PictureBox();
-            this.txtPuntaje = new System.Windows.Forms.TextBox();
-            this.txtMalas = new System.Windows.Forms.TextBox();
-            this.txtBuenas = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -217,6 +217,27 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Score";
             // 
+            // txtPuntaje
+            // 
+            this.txtPuntaje.Location = new System.Drawing.Point(94, 67);
+            this.txtPuntaje.Name = "txtPuntaje";
+            this.txtPuntaje.Size = new System.Drawing.Size(100, 20);
+            this.txtPuntaje.TabIndex = 8;
+            // 
+            // txtMalas
+            // 
+            this.txtMalas.Location = new System.Drawing.Point(94, 41);
+            this.txtMalas.Name = "txtMalas";
+            this.txtMalas.Size = new System.Drawing.Size(100, 20);
+            this.txtMalas.TabIndex = 7;
+            // 
+            // txtBuenas
+            // 
+            this.txtBuenas.Location = new System.Drawing.Point(94, 17);
+            this.txtBuenas.Name = "txtBuenas";
+            this.txtBuenas.Size = new System.Drawing.Size(100, 20);
+            this.txtBuenas.TabIndex = 6;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -309,6 +330,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.Controls.Add(this.pbRosado);
             this.panel2.Controls.Add(this.pbVerde);
             this.panel2.Controls.Add(this.pbBlanco);
@@ -318,120 +340,117 @@
             this.panel2.Controls.Add(this.pbNegro);
             this.panel2.Controls.Add(this.pbCafe);
             this.panel2.Controls.Add(this.pbAmarillo);
-            this.panel2.Location = new System.Drawing.Point(37, 25);
+            this.panel2.Location = new System.Drawing.Point(52, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(336, 161);
+            this.panel2.Size = new System.Drawing.Size(251, 189);
             this.panel2.TabIndex = 16;
             // 
             // pbAmarillo
             // 
-            this.pbAmarillo.BackColor = System.Drawing.Color.Yellow;
-            this.pbAmarillo.Location = new System.Drawing.Point(0, 0);
+            this.pbAmarillo.BackColor = System.Drawing.Color.Transparent;
+            this.pbAmarillo.Image = global::MiniJuego.Properties.Resources.Imagen5;
+            this.pbAmarillo.Location = new System.Drawing.Point(3, -6);
             this.pbAmarillo.Name = "pbAmarillo";
-            this.pbAmarillo.Size = new System.Drawing.Size(336, 161);
+            this.pbAmarillo.Size = new System.Drawing.Size(258, 192);
+            this.pbAmarillo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbAmarillo.TabIndex = 0;
             this.pbAmarillo.TabStop = false;
             // 
             // pbCafe
             // 
-            this.pbCafe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.pbCafe.Location = new System.Drawing.Point(0, 0);
+            this.pbCafe.BackColor = System.Drawing.Color.Transparent;
+            this.pbCafe.Image = global::MiniJuego.Properties.Resources.Imagen3;
+            this.pbCafe.Location = new System.Drawing.Point(3, -3);
             this.pbCafe.Name = "pbCafe";
-            this.pbCafe.Size = new System.Drawing.Size(336, 161);
+            this.pbCafe.Size = new System.Drawing.Size(258, 192);
+            this.pbCafe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbCafe.TabIndex = 1;
             this.pbCafe.TabStop = false;
             this.pbCafe.Visible = false;
             // 
             // pbNegro
             // 
-            this.pbNegro.BackColor = System.Drawing.Color.Black;
-            this.pbNegro.Location = new System.Drawing.Point(44, 18);
+            this.pbNegro.BackColor = System.Drawing.Color.Transparent;
+            this.pbNegro.Image = global::MiniJuego.Properties.Resources.Imagen4;
+            this.pbNegro.Location = new System.Drawing.Point(3, -9);
             this.pbNegro.Name = "pbNegro";
-            this.pbNegro.Size = new System.Drawing.Size(246, 124);
+            this.pbNegro.Size = new System.Drawing.Size(258, 195);
+            this.pbNegro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbNegro.TabIndex = 2;
             this.pbNegro.TabStop = false;
             this.pbNegro.Visible = false;
             // 
             // pbRojo
             // 
-            this.pbRojo.BackColor = System.Drawing.Color.Red;
-            this.pbRojo.Location = new System.Drawing.Point(0, 0);
+            this.pbRojo.BackColor = System.Drawing.Color.Transparent;
+            this.pbRojo.Image = global::MiniJuego.Properties.Resources.mancha_png_by_tullyy_d8wf2hn;
+            this.pbRojo.Location = new System.Drawing.Point(3, -3);
             this.pbRojo.Name = "pbRojo";
-            this.pbRojo.Size = new System.Drawing.Size(336, 161);
+            this.pbRojo.Size = new System.Drawing.Size(258, 192);
+            this.pbRojo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbRojo.TabIndex = 3;
             this.pbRojo.TabStop = false;
             this.pbRojo.Visible = false;
             // 
             // pbAzul
             // 
-            this.pbAzul.BackColor = System.Drawing.Color.Blue;
-            this.pbAzul.Location = new System.Drawing.Point(0, 0);
+            this.pbAzul.BackColor = System.Drawing.Color.Transparent;
+            this.pbAzul.Image = global::MiniJuego.Properties.Resources.Imagen6;
+            this.pbAzul.Location = new System.Drawing.Point(0, 3);
             this.pbAzul.Name = "pbAzul";
-            this.pbAzul.Size = new System.Drawing.Size(336, 161);
+            this.pbAzul.Size = new System.Drawing.Size(258, 192);
+            this.pbAzul.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbAzul.TabIndex = 4;
             this.pbAzul.TabStop = false;
             this.pbAzul.Visible = false;
             // 
             // pbAnaranjado
             // 
-            this.pbAnaranjado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.pbAnaranjado.Location = new System.Drawing.Point(0, 0);
+            this.pbAnaranjado.BackColor = System.Drawing.Color.Transparent;
+            this.pbAnaranjado.Image = global::MiniJuego.Properties.Resources.naranja;
+            this.pbAnaranjado.Location = new System.Drawing.Point(3, 6);
             this.pbAnaranjado.Name = "pbAnaranjado";
-            this.pbAnaranjado.Size = new System.Drawing.Size(336, 161);
+            this.pbAnaranjado.Size = new System.Drawing.Size(258, 189);
+            this.pbAnaranjado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbAnaranjado.TabIndex = 5;
             this.pbAnaranjado.TabStop = false;
             this.pbAnaranjado.Visible = false;
             // 
             // pbBlanco
             // 
-            this.pbBlanco.BackColor = System.Drawing.Color.White;
-            this.pbBlanco.Location = new System.Drawing.Point(0, 0);
+            this.pbBlanco.BackColor = System.Drawing.Color.Transparent;
+            this.pbBlanco.Image = global::MiniJuego.Properties.Resources.Imagen8;
+            this.pbBlanco.Location = new System.Drawing.Point(3, -3);
             this.pbBlanco.Name = "pbBlanco";
-            this.pbBlanco.Size = new System.Drawing.Size(336, 161);
+            this.pbBlanco.Size = new System.Drawing.Size(258, 189);
+            this.pbBlanco.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbBlanco.TabIndex = 6;
             this.pbBlanco.TabStop = false;
             this.pbBlanco.Visible = false;
             // 
             // pbVerde
             // 
-            this.pbVerde.BackColor = System.Drawing.Color.Lime;
-            this.pbVerde.Location = new System.Drawing.Point(0, 0);
+            this.pbVerde.BackColor = System.Drawing.Color.Transparent;
+            this.pbVerde.Image = global::MiniJuego.Properties.Resources._4589728358;
+            this.pbVerde.Location = new System.Drawing.Point(2, -3);
             this.pbVerde.Name = "pbVerde";
-            this.pbVerde.Size = new System.Drawing.Size(336, 161);
+            this.pbVerde.Size = new System.Drawing.Size(258, 189);
+            this.pbVerde.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbVerde.TabIndex = 7;
             this.pbVerde.TabStop = false;
             this.pbVerde.Visible = false;
             // 
             // pbRosado
             // 
-            this.pbRosado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.pbRosado.Location = new System.Drawing.Point(0, 0);
+            this.pbRosado.BackColor = System.Drawing.Color.Transparent;
+            this.pbRosado.Image = global::MiniJuego.Properties.Resources.Imagen7;
+            this.pbRosado.Location = new System.Drawing.Point(-7, -9);
             this.pbRosado.Name = "pbRosado";
-            this.pbRosado.Size = new System.Drawing.Size(336, 161);
+            this.pbRosado.Size = new System.Drawing.Size(258, 198);
+            this.pbRosado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbRosado.TabIndex = 17;
             this.pbRosado.TabStop = false;
             this.pbRosado.Visible = false;
-            // 
-            // txtPuntaje
-            // 
-            this.txtPuntaje.Location = new System.Drawing.Point(94, 67);
-            this.txtPuntaje.Name = "txtPuntaje";
-            this.txtPuntaje.Size = new System.Drawing.Size(100, 20);
-            this.txtPuntaje.TabIndex = 8;
-            // 
-            // txtMalas
-            // 
-            this.txtMalas.Location = new System.Drawing.Point(94, 41);
-            this.txtMalas.Name = "txtMalas";
-            this.txtMalas.Size = new System.Drawing.Size(100, 20);
-            this.txtMalas.TabIndex = 7;
-            // 
-            // txtBuenas
-            // 
-            this.txtBuenas.Location = new System.Drawing.Point(94, 17);
-            this.txtBuenas.Name = "txtBuenas";
-            this.txtBuenas.Size = new System.Drawing.Size(100, 20);
-            this.txtBuenas.TabIndex = 6;
             // 
             // Colores
             // 

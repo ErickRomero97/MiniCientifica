@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Animales));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -258,10 +259,11 @@
             // 
             // pbGato
             // 
-            this.pbGato.Image = global::MiniJuego.Properties.Resources._0fd3781e76efde73f9003b46ce4e29cd;
-            this.pbGato.Location = new System.Drawing.Point(219, 92);
+            this.pbGato.BackColor = System.Drawing.Color.Transparent;
+            this.pbGato.Image = global::MiniJuego.Properties.Resources._0fd3781e76efde73f9003b46ce4e29cd1;
+            this.pbGato.Location = new System.Drawing.Point(186, 67);
             this.pbGato.Name = "pbGato";
-            this.pbGato.Size = new System.Drawing.Size(186, 128);
+            this.pbGato.Size = new System.Drawing.Size(232, 191);
             this.pbGato.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbGato.TabIndex = 22;
             this.pbGato.TabStop = false;
@@ -279,10 +281,11 @@
             // 
             // pbBallena
             // 
-            this.pbBallena.Image = global::MiniJuego.Properties.Resources.b02483c9a2e09ca60aa2260ee58272d0;
-            this.pbBallena.Location = new System.Drawing.Point(219, 92);
+            this.pbBallena.BackColor = System.Drawing.Color.Transparent;
+            this.pbBallena.Image = global::MiniJuego.Properties.Resources.Imagen11;
+            this.pbBallena.Location = new System.Drawing.Point(179, 67);
             this.pbBallena.Name = "pbBallena";
-            this.pbBallena.Size = new System.Drawing.Size(186, 128);
+            this.pbBallena.Size = new System.Drawing.Size(239, 191);
             this.pbBallena.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbBallena.TabIndex = 24;
             this.pbBallena.TabStop = false;
@@ -290,10 +293,11 @@
             // 
             // pbConejo
             // 
-            this.pbConejo.Image = global::MiniJuego.Properties.Resources.conejo_con_zanahoria_fiestas_pascua_pintado_por_paocarranz_9777011;
-            this.pbConejo.Location = new System.Drawing.Point(219, 92);
+            this.pbConejo.BackColor = System.Drawing.Color.Transparent;
+            this.pbConejo.Image = global::MiniJuego.Properties.Resources.c049bae650a9f00b4dfb380ada55898e;
+            this.pbConejo.Location = new System.Drawing.Point(179, 67);
             this.pbConejo.Name = "pbConejo";
-            this.pbConejo.Size = new System.Drawing.Size(186, 128);
+            this.pbConejo.Size = new System.Drawing.Size(239, 191);
             this.pbConejo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbConejo.TabIndex = 25;
             this.pbConejo.TabStop = false;
@@ -301,10 +305,11 @@
             // 
             // pbCocodrilo
             // 
-            this.pbCocodrilo.Image = global::MiniJuego.Properties.Resources.images__1_;
-            this.pbCocodrilo.Location = new System.Drawing.Point(219, 92);
+            this.pbCocodrilo.BackColor = System.Drawing.Color.Transparent;
+            this.pbCocodrilo.Image = ((System.Drawing.Image)(resources.GetObject("pbCocodrilo.Image")));
+            this.pbCocodrilo.Location = new System.Drawing.Point(179, 67);
             this.pbCocodrilo.Name = "pbCocodrilo";
-            this.pbCocodrilo.Size = new System.Drawing.Size(186, 128);
+            this.pbCocodrilo.Size = new System.Drawing.Size(239, 189);
             this.pbCocodrilo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbCocodrilo.TabIndex = 26;
             this.pbCocodrilo.TabStop = false;
@@ -312,10 +317,11 @@
             // 
             // pbPerro
             // 
-            this.pbPerro.Image = global::MiniJuego.Properties.Resources.Perro_en_dibujo;
-            this.pbPerro.Location = new System.Drawing.Point(219, 92);
+            this.pbPerro.BackColor = System.Drawing.Color.Transparent;
+            this.pbPerro.Image = global::MiniJuego.Properties.Resources.a690496d7e1176c783f54793aed1cfcc;
+            this.pbPerro.Location = new System.Drawing.Point(179, 67);
             this.pbPerro.Name = "pbPerro";
-            this.pbPerro.Size = new System.Drawing.Size(186, 128);
+            this.pbPerro.Size = new System.Drawing.Size(239, 189);
             this.pbPerro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbPerro.TabIndex = 27;
             this.pbPerro.TabStop = false;

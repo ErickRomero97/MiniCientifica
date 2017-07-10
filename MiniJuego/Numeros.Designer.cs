@@ -319,8 +319,9 @@
             // 
             // ptbNumero1
             // 
+            this.ptbNumero1.BackColor = System.Drawing.Color.Transparent;
             this.ptbNumero1.Image = global::MiniJuego.Properties.Resources._11;
-            this.ptbNumero1.Location = new System.Drawing.Point(81, 47);
+            this.ptbNumero1.Location = new System.Drawing.Point(78, 50);
             this.ptbNumero1.Name = "ptbNumero1";
             this.ptbNumero1.Size = new System.Drawing.Size(375, 180);
             this.ptbNumero1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -330,8 +331,9 @@
             // 
             // pbNumero2
             // 
+            this.pbNumero2.BackColor = System.Drawing.Color.Transparent;
             this.pbNumero2.Image = global::MiniJuego.Properties.Resources._21;
-            this.pbNumero2.Location = new System.Drawing.Point(78, 47);
+            this.pbNumero2.Location = new System.Drawing.Point(78, 50);
             this.pbNumero2.Name = "pbNumero2";
             this.pbNumero2.Size = new System.Drawing.Size(375, 180);
             this.pbNumero2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -341,8 +343,9 @@
             // 
             // pbNumero3
             // 
+            this.pbNumero3.BackColor = System.Drawing.Color.Transparent;
             this.pbNumero3.Image = global::MiniJuego.Properties.Resources._31;
-            this.pbNumero3.Location = new System.Drawing.Point(81, 50);
+            this.pbNumero3.Location = new System.Drawing.Point(78, 50);
             this.pbNumero3.Name = "pbNumero3";
             this.pbNumero3.Size = new System.Drawing.Size(375, 180);
             this.pbNumero3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -352,8 +355,9 @@
             // 
             // pbNumero4
             // 
+            this.pbNumero4.BackColor = System.Drawing.Color.Transparent;
             this.pbNumero4.Image = global::MiniJuego.Properties.Resources._4;
-            this.pbNumero4.Location = new System.Drawing.Point(78, 47);
+            this.pbNumero4.Location = new System.Drawing.Point(78, 50);
             this.pbNumero4.Name = "pbNumero4";
             this.pbNumero4.Size = new System.Drawing.Size(375, 180);
             this.pbNumero4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -363,8 +367,9 @@
             // 
             // pbNumero5
             // 
+            this.pbNumero5.BackColor = System.Drawing.Color.Transparent;
             this.pbNumero5.Image = global::MiniJuego.Properties.Resources._5;
-            this.pbNumero5.Location = new System.Drawing.Point(81, 47);
+            this.pbNumero5.Location = new System.Drawing.Point(78, 50);
             this.pbNumero5.Name = "pbNumero5";
             this.pbNumero5.Size = new System.Drawing.Size(375, 180);
             this.pbNumero5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -374,6 +379,7 @@
             // 
             // pbNumero6
             // 
+            this.pbNumero6.BackColor = System.Drawing.Color.Transparent;
             this.pbNumero6.Image = global::MiniJuego.Properties.Resources._6;
             this.pbNumero6.Location = new System.Drawing.Point(78, 50);
             this.pbNumero6.Name = "pbNumero6";
@@ -385,6 +391,7 @@
             // 
             // pbNumero7
             // 
+            this.pbNumero7.BackColor = System.Drawing.Color.Transparent;
             this.pbNumero7.Image = global::MiniJuego.Properties.Resources._7;
             this.pbNumero7.Location = new System.Drawing.Point(78, 50);
             this.pbNumero7.Name = "pbNumero7";
@@ -396,6 +403,7 @@
             // 
             // pbNumero8
             // 
+            this.pbNumero8.BackColor = System.Drawing.Color.Transparent;
             this.pbNumero8.Image = global::MiniJuego.Properties.Resources._8;
             this.pbNumero8.Location = new System.Drawing.Point(78, 50);
             this.pbNumero8.Name = "pbNumero8";
@@ -407,6 +415,7 @@
             // 
             // pbNumero9
             // 
+            this.pbNumero9.BackColor = System.Drawing.Color.Transparent;
             this.pbNumero9.Image = global::MiniJuego.Properties.Resources._9;
             this.pbNumero9.Location = new System.Drawing.Point(78, 50);
             this.pbNumero9.Name = "pbNumero9";
@@ -418,7 +427,8 @@
             // 
             // pbNumero10
             // 
-            this.pbNumero10.Image = global::MiniJuego.Properties.Resources._10;
+            this.pbNumero10.BackColor = System.Drawing.Color.Transparent;
+            this.pbNumero10.Image = global::MiniJuego.Properties.Resources._101;
             this.pbNumero10.Location = new System.Drawing.Point(78, 50);
             this.pbNumero10.Name = "pbNumero10";
             this.pbNumero10.Size = new System.Drawing.Size(375, 180);
