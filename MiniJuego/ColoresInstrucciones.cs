@@ -21,7 +21,7 @@ namespace MiniJuego
         private void ColoresInstrucciones_Load(object sender, EventArgs e)
         {
             SoundPlayer Musica;
-            Musica = new SoundPlayer(@"C:\Users\Miguel\Desktop\MiniJuego\musicas\Electric_Daisy_Violin.wav");
+            Musica = new SoundPlayer(@"C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\musicas\Electric_Daisy_Violin.wav");
             Musica.Play();
 
         }

@@ -20,7 +20,7 @@ namespace MiniJuego
         private void AnimalesInstrucciones_Load(object sender, EventArgs e)
         {
             SoundPlayer Musica;
-            Musica = new SoundPlayer(@"C:\Users\Miguel\Desktop\MiniJuego\musicas\Deadmau5_-_Animal_Rights_4x4_12_.wav");
+            Musica = new SoundPlayer(@"C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\musicas\Deadmau5_-_Animal_Rights_4x4_12_.wav");
             Musica.Play();
         }
 

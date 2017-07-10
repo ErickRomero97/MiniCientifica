@@ -28,7 +28,7 @@ namespace MiniJuego
         private void NumerosInstrucciones_Load(object sender, EventArgs e)
         {
             SoundPlayer Musica;
-            Musica = new SoundPlayer(@"C:\Users\Miguel\Desktop\MiniJuego\musicas\M_sica_electr_nica_lenta.wav");
+            Musica = new SoundPlayer(@"C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\musicas\M_sica_electr_nica_lenta.wav");
             Musica.Play();
         }
     }

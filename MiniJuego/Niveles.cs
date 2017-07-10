@@ -21,7 +21,7 @@ namespace MiniJuego
         private void Niveles_Load(object sender, EventArgs e)
         {
             SoundPlayer Musica;
-            Musica = new SoundPlayer(@"C:\Users\Miguel\Desktop\MiniJuego\musicas\Titanium_-_Pavane_Piano-Cello_Cover_-_David_Guetta.wav");
+            Musica = new SoundPlayer(@"C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\musicas\Titanium_-_Pavane_Piano-Cello_Cover_-_David_Guetta.wav");
             Musica.Play();
         }
 

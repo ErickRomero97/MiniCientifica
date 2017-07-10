@@ -46,3 +46,19 @@ C:\Users\Miguel\Desktop\MiniJuego\obj\Debug\MiniJuego.csproj.GenerateResource.Ca
 C:\Users\Miguel\Desktop\MiniJuego\obj\Debug\MiniJuego.exe
 C:\Users\Miguel\Desktop\MiniJuego\obj\Debug\MiniJuego.pdb
 C:\Users\Miguel\Desktop\MiniJuego\obj\Debug\MiniJuego.frmPrincipal.resources
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\bin\Debug\MiniJuego.exe.config
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.exe
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.pdb
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\bin\Debug\MiniJuego.exe
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\bin\Debug\MiniJuego.pdb
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.csprojResolveAssemblyReference.cache
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.Animales.resources
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.AnimalesInstrucciones.resources
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.Colores.resources
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.ColoresInstrucciones.resources
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.NumerosInstrucciones.resources
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.frmPrincipal.resources
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.Niveles.resources
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.Numeros.resources
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.Properties.Resources.resources
+C:\Users\ERICK GALLARDO\Desktop\MiniCientifica\MiniJuego\obj\Debug\MiniJuego.csproj.GenerateResource.Cache
